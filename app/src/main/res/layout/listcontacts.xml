@@ -8,9 +8,15 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select the Contact to chat:"
+        android:text="Select the Contact"
         android:textSize="25dp"
         android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/btn_chat" />
 
     <ListView
         android:id="@+id/contactsView"
